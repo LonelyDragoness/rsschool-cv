@@ -70,3 +70,12 @@ _**The easiest way to find me, if i'm online and available, is either via Discor
 ### Experience
 I don't have any commercial coding experience, but i'm actively self-educating for the last 1.5 years, using 
 various web resources and books (No Starch Press, W3Schools, etc.)
+
+### About me
+I'm eager to think out of the box and learn new things, not afraid of a challenge. 
+Being able to stay calm under the pressure. Both capable of playing in a team and working individually.
+
+Actively learning CG illustration, 3d animation and new technologies in my free time.
+
+Also, i'm a dragon ~~(just kidding)~~.
+
