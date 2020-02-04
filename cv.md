@@ -78,4 +78,3 @@ Being able to stay calm under the pressure. Both capable of playing in a team an
 Actively learning CG illustration, 3d animation and new technologies in my free time.
 
 Also, i'm a dragon ~~(just kidding)~~.
-
