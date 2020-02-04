@@ -71,6 +71,8 @@ _**The easiest way to find me, if i'm online and available, is either via Discor
 I don't have any commercial coding experience, but i'm actively self-educating for the last 1.5 years, using 
 various web resources and books (No Starch Press, W3Schools, etc.)
 
+<hr>
+
 ### About me
 I'm eager to think out of the box and learn new things, not afraid of a challenge. 
 Being able to stay calm under the pressure. Both capable of playing in a team and working individually.
