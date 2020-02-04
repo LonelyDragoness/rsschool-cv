@@ -1,2 +1,1 @@
-# rsschool-cv
-Git &amp; Markdown task
+https://lonelydragoness.github.io/rsschool-cv/cv
