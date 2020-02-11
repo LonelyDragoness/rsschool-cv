@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <h1 class="header"><strong>CV - Anton Taberka</strong></h1>
+    </header>
+    <main>
+        <figure>
+            <img src="KasmyneAV.gif" alt="Profile image" style="width: 350px; height: 350px;">
+        </figure>
+        <section class="pad">
+            <h3><strong>Contact Info</strong></h3>
+            <p><strong>Discord:</strong> BanShe#7062</p>
+            <p><a class="link-color" href="https://vk.com/midnight_pulse">Vk.com</a></p>
+            <p><a class="link-color" href="https://github.com/LonelyDragoness">Github</a></p>
+            <p><strong>Telegram:</strong> @SoulHowl</p>
+            <p><strong>Phone number:</strong> +375 297225069</p>
+            <p id="notice">The easiest way to find me, if i'm online and available, is via Discord
+                or Telegram, either.</p>
+        </section>
+        <section class="pad">
+            <h3><strong>Skills</strong></h3>
+            <ul>
+                <li><strong>Python.</strong> Scripts for processing data, automating daily tasks.</li>
+                <li><strong>Django and flask frameworks.</strong> Newbie level, can create simple back-end for
+                    web apps.</li>
+                <li><strong>HTML&CSS.</strong> Basic understanding, enough for common usage.</li>
+                <li><strong>Git.</strong> Used for projects during the studies.
+                <li><strong>SQL.</strong> Simple work with tables and databases (predominantly MySQL, PostgreSQL).
+                <li><strong>Ruby.</strong> Used for some web scraping.
+                <li><strong>JavaScript.</strong> Basic language knowledge.
+            </ul>
+        </section>
+        <section class="pad">
+            <h3><strong>Code example (snippet of Ruby code)</strong></h3>
+            <pre id="code">
+                <code>
+                    begin
+                        $counter = 0
+                        CSV.open("#{$csv_name}", "a+") do |csv|
+                            if product_price[0].length == 1
+                                full_name = $product_name + " - " + product_quantity.first[0]
+                                csv << [full_name, product_price.first.map { |x| x[/\d\d?.\d\d?/]}[0], product_image]
+
+                            else
+                                (0..product_price.length).each do |num|
+                                    full_name = $product_name + " - " + product_quantity.first[num]
+                                    clean_price = product_price.first.map { |x| x[/\d\d?.\d\d?/]}
+                                    csv << [full_name, clean_price[num], product_image]
+                                end
+                            end
+                        end
+                    rescue
+                        $counter = 1
+                    end
+                </code>
+            </pre>
+        </section>
+        <section class="pad">
+            <h3><strong>Languages (according to various tests and personal feeling)</strong></h3>
+            <ul>
+                <li><strong>Russian:</strong> C2. Native.</li>
+                <li><strong>English:</strong> In-between B2 and C1. Can communicate, read, write, translate freely most
+                    of the time.</li>
+                <li><strong>German:</strong> A1. Beginner, learning.</li>
+            </ul>
+        </section>
+        <section class="pad">
+            <h3>Experience</h3>
+            <p>I don't have any commercial coding experience, but i'm actively self-educating for the last 1.5
+                years, using various web resources and books (No Starch Press, W3Schools, etc.)</p>
+
+        </section>
+        <section class="pad">
+            <h3>About me</h3>
+            <p>I’m eager to think out of the box and learn new things, not afraid of a challenge. Being able to stay
+                calm under the pressure. Both capable of playing in a team and working individually.<p>
+            <p>Actively learning CG illustration, 3d animation and new technologies in my free time.</p>
+            <p>Also, i’m a dragon <del>(just kidding).</del></p>
+        </section>
+    </main>
+</body>
+</html>
