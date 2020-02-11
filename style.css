@@ -1,0 +1,43 @@
+* {
+    max-width: 1024px;
+    margin: auto;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    border-bottom: 2px solid rgba(100, 149, 237, 0.5 );
+    margin-bottom: 20px;
+    color: mediumslateblue;
+}
+
+p, li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.header {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 32px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.pad {
+    margin-bottom: 40px;
+}
+
+.link-color {
+    color: cornflowerblue;
+}
+
+#notice {
+    margin-top: 25px;
+}
+
+#code {
+    font-family: "Consolas", serif;
+    background-color: rgba(70, 130, 180, 0.1);
+    border-radius: 30px;
+}
